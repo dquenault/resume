@@ -346,18 +346,19 @@ ul#stats li{
 /* Footer */
 
 footer {
-	background: url(images/blue_bg.png) 0 0 repeat;
+	/*background: url(images/blue_bg.png) 0 0 repeat;*/
+	background-color: #990000;
     clear: both;
     padding: 20px 0;
 	}
 
-#footer_inner {
+#footer_box {
 	margin: 0 auto;
 	width:1000px;
 	}
 	
-#footer_inner p, #footer_inner a:hover{
-	color:#ffffff;
+#footer_box p, #footer_box a:hover{
+	color:#000000;
 	}	
 
 
