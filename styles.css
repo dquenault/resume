@@ -13,27 +13,13 @@ p {
 	margin: 10px 0 0;
 	}
 	
-p.sub_title {
-	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, "Times New Roman", Times, serif;
-	font-style: italic;
-	margin: -5px 0 0;
-	color: #b9b9b9;
-	-webkit-transition-duration: 0.25s; 
-	-webkit-transition-timing-function: linear;	
-	-moz-transition-property: color; 
-	-moz-transition-duration: 0.25s; 
-	-moz-transition-timing-function: linear;	
-	transition-property: color; 
-	transition-duration: 0.25s; 
-	transition-timing-function: linear;	
-	}
 
 h1 {
 	font-size: 45px;
 	margin: 0;
 	padding: 0 10px 0 0;
 	color: #d2d2d2;
-  	font-family: "p22-underground-1","p22-underground-2", Arial;
+  	font-family: Arial;
  	width:65%;
   	float: left;
   	border-right: 1px solid #c1c1c1;
@@ -185,20 +171,23 @@ p#company {
 section, article {
 	overflow: hidden;
 	}
-		
-section, section#statement p, #wrapper {
+
+/* Header */
+
+section, section#header_top p, #wrapper {
 	width: 1000px;
 	margin: 0 auto;
 	}
 	
-section#statement {
+section#header_top {
 	width: 100%;
-	background: url(images/blue_bg.png) 0 0 repeat;
+	/*background: url(images/blue_bg.png) 0 0 repeat;*/
+	background-color: #C13333;
 	}
 	
-section#statement p{
+section#header_top p{
 	padding: 10px 0;
-	color:#ffffff;
+	color:#FFFFFF;
 	text-transform: uppercase;
 	font-size:12px;
 	}
@@ -212,6 +201,22 @@ section#header, article{
 section#header{
 	margin: 30px auto 0;
 	}
+
+ul#contact_details {
+	margin-top: 20px;	
+	float: right;
+	width:29%;
+	color:#212121;
+	}
+
+p#elevatorspeech {
+	padding-top: 30px;
+	color:#212121;
+	font-style: italic;
+	font-size: 16px;
+	}
+
+
 		
 section#content_left{
 	width:480px;
@@ -231,10 +236,7 @@ section#content_left article:last-child, section#content_right article:last-chil
 	border:none;
 	}		
 		
-ul#social_media {
-	float: right;
-	width:30%;
-	}
+
 	
 ul#social_media li a{
 	height: 30px;
@@ -347,7 +349,7 @@ ul#stats li{
 
 footer {
 	/*background: url(images/blue_bg.png) 0 0 repeat;*/
-	background-color: #990000;
+	background-color: #C13333;
     clear: both;
     padding: 20px 0;
 	}
@@ -358,10 +360,27 @@ footer {
 	}
 	
 #footer_box p, #footer_box a:hover{
-	color:#000000;
+	color:#FFFFFF;
 	}	
 
 
+
+
+/* Stuff to remove / change */
+p.rolename {
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	margin: -5px 0 0;
+	color: #b9b9b9;
+	-webkit-transition-duration: 0.25s; 
+	-webkit-transition-timing-function: linear;	
+	-moz-transition-property: color; 
+	-moz-transition-duration: 0.25s; 
+	-moz-transition-timing-function: linear;	
+	transition-property: color; 
+	transition-duration: 0.25s; 
+	transition-timing-function: linear;	
+	}
 
 
 /* Getting responsive */
