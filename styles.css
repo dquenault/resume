@@ -7,6 +7,7 @@ body {
  	line-height: 22px;
  	letter-spacing: 1px;
  	background: #ffffff;
+ 	margin: 0px auto;
 	}
 
 p {
@@ -212,6 +213,7 @@ ul#contact_details {
 p#elevatorspeech {
 	padding-top: 30px;
 	color:#212121;
+	text-align: center;
 	font-style: italic;
 	font-size: 16px;
 	}
@@ -219,8 +221,9 @@ p#elevatorspeech {
 
 		
 section#content_left{
-	width:480px;
+	width: 480px;
 	float: left;
+	padding-top: 20px;
 	}		
 			
 section#content_left article:hover p.sub_title, section#content_right article:hover a{ 
@@ -228,8 +231,9 @@ section#content_left article:hover p.sub_title, section#content_right article:ho
 	}		
 	
 section#content_right{
-	width:480px;
+	width: 480px;
 	float: right;
+	padding-top: 20px;
 	}
 			
 section#content_left article:last-child, section#content_right article:last-child{
@@ -411,11 +415,7 @@ h1 {
 	border: none;
 	text-align: center;
 	}
-	
-section#statement p {
-	text-align: center;
-	}
-				
+			
 span.ampersand.big {
 	font-size: 120%;
 	}	
