@@ -349,6 +349,10 @@ ul#stats li{
 	margin:0 0 22px 0;
 	}
 
+img#skills {
+	text-align: center;
+}
+
 /* Footer */
 
 footer {
@@ -449,7 +453,8 @@ ul#social_media li a{
 ul#social_media li a span{
 	display:none;	
 	}	
-	
+
+/* Sets the border and margin for the first and last articles */	
 section#content_left article:last-child	{
 	border-bottom: 1px solid #c1c1c1;
 	}
