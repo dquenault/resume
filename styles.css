@@ -8,6 +8,7 @@ body {
  	letter-spacing: 1px;
  	background: #ffffff;
  	margin: 0px auto;
+ 	font-family: "droid-sans",sans-serif;
 	}
 
 p {
@@ -20,7 +21,6 @@ h1 {
 	margin: 0;
 	padding: 0 10px 0 0;
 	color: #d2d2d2;
-  	font-family: Arial;
  	width:65%;
   	float: left;
   	border-right: 1px solid #c1c1c1;
