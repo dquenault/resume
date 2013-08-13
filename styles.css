@@ -284,7 +284,10 @@ ul#social_media li a.email:hover{
 ul#social_media li a.twitter:hover, ul#social_media li a.email:hover, ul#social_media li a.linkedin:hover {
 	opacity: 0.7;
 	}
-	
+
+
+
+
 #work_pointer {
 	background: #d3d3d3;
 	padding: 10px;
@@ -348,6 +351,34 @@ ul#stats {
 ul#stats li{
 	margin:0 0 22px 0;
 	}
+
+
+ul#certs li {
+	height: 30px;
+    background: url(images/bcslogo.png) no-repeat;
+	padding: 12px 0 0 60px;
+	margin: 0 0 15px 0;
+	display: block;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;	
+	transition: all 0.2s ease;	
+	}	
+	
+ul#certs li a span{
+	color:#212121;
+	}
+		
+ul#certs li span.edu{
+	background-position: 0 5px;
+	}
+		
+ul#certs li.edu:hover{
+	background-position: 7px 5px;
+	}
+ul#certs li.edu:hover {
+	opacity: 0.7;
+	}		
+	
 
 img#skills {
 	margin: 0 auto;
