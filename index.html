@@ -2,20 +2,20 @@
 <html lang="en-GB">
   <head> 
     <title>David Quenault</title> 
-
-    <script type="text/javascript" src="//use.typekit.net/mej1aup.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/glyths.css" />
   </head>
 
   <body>
+  	 	
+
   	<section id="header_top">
  		<p>"The Only Thing That Is Constant Is Change -" Heraclitus (c. 535 BC - 475 BC)</p>
- 	</section>
 
+ 	</section>
+<div class="fuzzydividertop"></div>
   <section id="page">
- 	
+
   	<section id="header">
 	    <h1>
 	    	<span>David Quenault</span>
@@ -24,8 +24,9 @@
 	    </h1>	
 
 		<ul id="contact_details">
-			<li>Locale: Hertfordshire</li>
-			<li>Email: djquenault@gmail.com</li>
+			<li><span aria-hidden="true" class="icon-globe"></span> Hertfordshire</li>
+			<li><span aria-hidden="true" class="icon-mail-1"></span> djquenault@gmail.com</li>
+			<li><span aria-hidden="true" class="icon-linkedin-circled"></span> dquenault.linkedin.com</li>
 		</ul>
 
 		<section>
@@ -36,6 +37,9 @@
 
 	
 	<section id="content_left">
+
+<button>Toggle</button>
+<p>test</p>
 
 		<article>
 		<h3 class="datefromto">2006 - 2011</h3>
@@ -115,13 +119,18 @@ Modifications for this release. Responsibilities included:
 <section id="content_right">
 	<article>
 		<h2>Vital Stats</h2>
-		<img src="images/profile_photo.png" alt="Profile Picture"></img>
+		<img src="css/images/profile_photo.png" alt="Profile Picture"></img>
+		<p><span aria-hidden="true" style="color: grey" data-icon="&#9206;"></span></li>
 		<p>Tools of the trade:
 		<ul>
 			<li>Macbook Pro Retina</li>
 			<li>Water bottle</li>
 			<li>Loads of story cards</li>
 		</ul>
+	</article>
+
+	<article>
+		<div id="chart"></div>
 	</article>
 
 	<article>
@@ -137,7 +146,7 @@ Modifications for this release. Responsibilities included:
 	</ul>
 	</article>
 	
-	<article>
+	<article class="skills">
 	<h2>About me</h2>
 	<p>Some of my interests!</p>
 	<ul class ="skills">
@@ -166,10 +175,6 @@ Modifications for this release. Responsibilities included:
 		Completed with a Distinction average</p>
 		</article>
 
-	<article>
-	<h2>Referees</h2>
-	<p>Available on request</p>
-	</article>
 	
 	<article>
 		<h2>Recommendations</h2>
@@ -186,20 +191,32 @@ Modifications for this release. Responsibilities included:
 		Senior Business Systems Analyst</p>
 	</article>
 
-</section>
+	</section>
 
-<section>
-	<img id="skills" src="images/skills.png" alt="Skills matrix"></img>
-</section>
+	<section>
+		<!--<img id="skills" src="css/images/skills.png" alt="Skills matrix"></img>-->
+	</section>
 
 	
-</section>
-</section> <!-- Page wrapper -->
- <footer>
- 	<section id="footer_box">
- 		<p>(c)	Copyright David Quenault 2013</p>
- 		<p>Thanks to <a href="https://www.windowsazure.com">Windows Azure</a> for site hosting</p>
- 	</seciton>
- </footer>
- </body>
+	</section>
+	</section> <!-- Page wrapper -->
+	<div class="fuzzydividerbtm"></div>
+	<footer>
+	 	<section id="footer_box">
+	 		<p>(c)	Copyright David Quenault 2013</p>
+	 		<p>Thanks to <a href="https://www.windowsazure.com">Windows Azure</a> for site hosting<br>
+	 		   xxx for fonts
+	 		</p>
+	 	</seciton>
+	</footer>
+
+	 <!-- Javascript loads -->
+	 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	 <script type="text/javascript" src="js/barchart_skills.js"></script>
+	 <script type="text/javascript" src="js/interests_chart.js"></script>
+	 <script type="text/javascript" src="js/site.js"></script>
+
+ 	</body>
 </html>

@@ -1,0 +1,26 @@
+{ "interests":[	{
+	"name":"aikido",
+    "percent":30,
+    "y":40,
+        "x":40},
+  	{
+  		"name":"family",
+        "percent":35,
+        "y":80,
+            "x":80
+        },
+    {"name":"web design",
+                 "percent":5,
+                 "y":30,
+                     "x":120
+                 },
+                 {"name":"running",
+                 "percent":20,
+                 "y":50,
+                     "x":160
+                     },
+                 {"name":"obstacle racing",
+                 "percent":10,
+                 "y":20,
+                 "x":200}
+]}

@@ -1,0 +1,97 @@
+@font-face {
+
+  font-family: 'social-glyths';
+  src: url('font/social-glyths/social-glyths.eot');
+  src: url('font/social-glyths/social-glyths.eot?#iefix') format('embedded-opentype'),
+       url('font/social-glyths/social-glyths.woff') format('woff'),
+       url('font/social-glyths/social-glyths.ttf') format('truetype'),
+       url('font/social-glyths/social-glyths.svg#entypo') format('svg');
+       font-weight: normal; 
+       font-style: normal;
+}
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "social-glyths";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  opacity: .8; /*lighten*/
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+}
+ 
+.icon-github-circled:before { content: '\e83b'; } /* '' */
+.icon-cloud:before { content: '\e80c'; } /* '' */
+.icon-mail-1:before { content: '\e834'; } /* '' */
+.icon-edit:before { content: '\e830'; } /* '' */
+.icon-ok-circled:before { content: '\e811'; } /* '' */
+.icon-info-circled:before { content: '\e812'; } /* '' */
+.icon-retweet:before { content: '\e816'; } /* '' */
+.icon-comment-1:before { content: '\e817'; } /* '' */
+.icon-chat:before { content: '\e818'; } /* '' */
+.icon-off:before { content: '\e81f'; } /* '' */
+.icon-spin3:before { content: '\e80d'; } /* '' */
+.icon-firefox:before { content: '\e80e'; } /* '' */
+.icon-chrome:before { content: '\e80f'; } /* '' */
+.icon-ie:before { content: '\e810'; } /* '' */
+.icon-twitter:before { content: '\e82d'; } /* '' */
+.icon-facebook:before { content: '\e826'; } /* '' */
+.icon-rss:before { content: '\e814'; } /* '' */
+.icon-gplus-squared:before { content: '\e827'; } /* '' */
+.icon-gplus:before { content: '\e828'; } /* '' */
+.icon-linkedin:before { content: '\e82a'; } /* '' */
+.icon-comment-empty:before { content: '\e831'; } /* '' */
+.icon-chat-empty:before { content: '\e832'; } /* '' */
+.icon-sitemap:before { content: '\e820'; } /* '' */
+.icon-angle-up:before { content: '\e81a'; } /* '' */
+.icon-angle-down:before { content: '\e819'; } /* '' */
+.icon-laptop:before { content: '\e81c'; } /* '' */
+.icon-mobile:before { content: '\e81d'; } /* '' */
+.icon-html5:before { content: '\e829'; } /* '' */
+.icon-rss-squared:before { content: '\e813'; } /* '' */
+.icon-dropbox:before { content: '\e821'; } /* '' */
+.icon-flickr:before { content: '\e824'; } /* '' */
+.icon-tumblr-squared:before { content: '\e82e'; } /* '' */
+.icon-apple:before { content: '\e823'; } /* '' */
+.icon-windows:before { content: '\e82f'; } /* '' */
+.icon-skype-1:before { content: '\e82b'; } /* '' */
+.icon-twitter-bird:before { content: '\e806'; } /* '' */
+.icon-twitter-squared:before { content: '\e82c'; } /* '' */
+.icon-facebook-squared:before { content: '\e825'; } /* '' */
+.icon-googleplus-rect:before { content: '\e800'; } /* '' */
+.icon-twitter-circled:before { content: '\e83a'; } /* '' */
+.icon-skype:before { content: '\e804'; } /* '' */
+.icon-linkedin-squared:before { content: '\e822'; } /* '' */
+.icon-facebook-circled:before { content: '\e835'; } /* '' */
+.icon-vimeo-rect:before { content: '\e802'; } /* '' */
+.icon-tumblr-rect:before { content: '\e801'; } /* '' */
+.icon-gplus-circled:before { content: '\e836'; } /* '' */
+.icon-linkedin-rect:before { content: '\e803'; } /* '' */
+.icon-tumblr-circled:before { content: '\e839'; } /* '' */
+.icon-linkedin-circled:before { content: '\e838'; } /* '' */
+.icon-skype-circled:before { content: '\e837'; } /* '' */
+.icon-globe:before { content: '\e81b'; } /* '' */
+.icon-phone:before { content: '\e815'; } /* '' */
+.icon-phone-1:before { content: '\e833'; } /* '' */
+.icon-signal-1:before { content: '\e81e'; } /* '' */
+
