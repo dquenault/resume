@@ -2,7 +2,7 @@ var data = [14, 8, 30, 16, 80, 100];
 var chartWidth = 420;
 var chartHeight = 30 * data.length;
 
-var chart = d3.select("#chart").append("svg")
+var chart = d3.select(".chart").append("svg")
      .attr("class", "chart")
      .attr("width", chartWidth)
      .attr("height", chartHeight)
@@ -11,7 +11,7 @@ var chart = d3.select("#chart").append("svg")
 
 var x = d3.scale.linear()
      .domain([0, d3.max(data)])
-     .range([0, 420]);
+     .range([0, chartWidth]);
 
     var y = d3.scale.ordinal()
      .domain(data)
